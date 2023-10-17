@@ -1,5 +1,5 @@
 # Oberview_Nobel
-The Python Program provides an analysis of Nobel Prize winners from 1901 to 2016. The analysis involves exploring various aspects of Nobel Prize recipients, such as gender distribution, nationality dominance, age trends, and more.
+This Data Science Project provides an analysis of Nobel Prize winners from 1901 to 2016. The analysis involves exploring various aspects of Nobel Prize recipients, such as gender distribution, nationality dominance, age trends, and more.
 
 # Data Preparation
 The dataset was loaded using the pandas library, and initial data cleaning was performed using the klib library. Null values in columns such as "motivation," "birth_city," "birth_country," and "sex" were imputed. Birth dates were converted to datetime type, and missing birth dates were imputed based on the median birth year. Irrelevant columns were dropped for focused analysis.
